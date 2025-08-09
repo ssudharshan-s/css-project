@@ -1,0 +1,92 @@
+body{
+ 
+    background-color:gold;
+}
+nav{
+    padding: 20px;
+    font-family:,Geneva, Tahoma, sans-serif;
+}
+h4,ul,li,section{
+    display: inline;
+ Font-size19px;
+}
+ul,li{
+    margin-left: 20px;
+    font-size: 19px;
+}
+.header h4{
+    margin-right: 10%;
+    margin-left: 3%;
+    font-size: 18px;
+
+}
+.icon a{
+    margin-left: 28%;
+    margin-right: -27%;
+    font-size: large;
+}
+.icon a:hover{
+    color:rgb(248, 18, 25);
+} 
+.header a{
+ color:blue;
+    text-decoration:line-thought ;
+}
+.header a:hover{
+    cursor: pointer;
+    color:rgb(248, 25, 56);
+}
+span{
+    color:rgb(248, 18, 56);
+}
+.container{
+    display: flex;
+}
+.form{
+    margin-right:3%;
+    width:500px;
+    margin-left: 10%;
+    padding: 10px;
+    height: 500px;
+    margin-top: 1%;
+}
+input,textarea{
+    width:70%;
+    border:double;
+    outline: none;
+    padding: 5px;
+    margin-top: 2px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    background-color:rgb(255, 180, 193);
+    border: none;
+    outline: none;
+    padding: 5px;
+    margin-top: 2px;
+    width:30%;
+    border-radius: 5px;
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}
+.card .image{
+    margin-top: 7%;
+}
+.card .address p{
+    background-color:antiquewhite;
+    height: 180px;
+    width:280px;
+    text-align: center;
+    margin-left: 9%;
+    margin-top: -2%;
+    color: rgb(12, 12, 12);
+    position: fixed;
+  border:double;
+  outline: inset;
+    box-shadow: 10px 9px 9px gray;
+    padding-top:3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+}

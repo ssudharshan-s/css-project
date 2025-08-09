@@ -1,0 +1,78 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color:GREEN;
+}
+nav{
+    padding: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4,ul,li,section{
+    display: inline;
+}
+ul,li{
+    margin-left: 10px;
+    font-size: 19px;
+}
+.header h4
+{
+
+    margin-right:10%;
+    margin-left: 3%;
+    font-size: 15px;
+   
+}
+.icon a{
+    margin-left: 3%;
+    margin-right: 37%;
+    font-size: small;
+}
+.icon a:hover{
+    color:rgb(248, 18, 56);
+} 
+.header a{
+    color:black;
+    text-decoration:LINE-THOUGHT;
+}
+.header a:hover{
+    cursor: pointer;
+    color:rgb(248, 18, 56);
+}
+span{
+    color:rgb(248, 18, 56);
+}
+.topic{
+    text-align: center;
+}
+.one{
+    display: flex;
+}
+.one .box{
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color:rgb(255, 239, 220);
+    box-shadow: 5px 7px 5px grey;
+    padding: 5px;
+}
+.two{
+    display: flex;
+}
+.two .box{
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color:rgb(255, 239, 220);
+    box-shadow: 5px 7px 5px grey;
+    padding: 5px;
+
+}
+.three{
+    display: flex;
+}
+.three .box{
+    margin-left: 2%;
+    margin-top: 2%;
+    background-color:rgb(255, 239, 220);
+    box-shadow: 5px 7px 5px grey;
+    padding: 5px;
+    margin-bottom: 2%;
+}
