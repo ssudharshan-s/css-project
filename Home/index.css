@@ -1,0 +1,89 @@
+body{
+    background-image: url("../home/image/12.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+nav{
+    padding: 20px;
+    font-family: , Britannic bold,Geneva, Tahoma, sans-serif;
+color:white;
+}
+h4,ul,li,section{
+    display: inline;
+}
+ul,li{
+    margin-left: 10px;
+    font-size: 34px;
+color:brown;
+   
+}
+h4{
+    margin-right: 10%;
+    margin-left: 5%;
+}
+.icon a{
+    margin-left: 31%;
+    margin-right: -30%;
+    font-size: large;
+}
+.icon a:hover{
+    color:rgb(248, 25, 56);
+} 
+.container{
+    margin-top: 10%;
+    font-family: Verdana, britannic, Tahoma, sans-serif;
+color:red;
+    margin-left: 4%;
+}
+span{
+    color:rgb(255, 25, 25);
+}
+.little{
+    color:rgb(248, 255, 56);
+    font-size: 14px;
+}
+.content{
+    margin-top: 10px;
+color:yellow;
+}
+.header a{
+   color:white;
+   font-size: 19px;
+    text-decoration:line-thought ;
+}
+.header a:hover{
+    cursor: pointer;
+    color:rgb(255, 25, 56);
+}
+button{
+    background-color:rgb(248, 25, 25) ;
+    padding: 3px;
+    width:100px;
+    margin-top: 15px;
+    border: none;
+    border-radius:106px;
+}
+button a{
+    text-decoration: none;
+    color: pink;
+}
+.page{
+    margin-top: 250px;
+    display: inline-block;
+    list-style: none;
+}
+.page a{
+ color:orange;
+    font-size:30px;
+    text-decoration: none;
+    
+    }
+ .page a:hover{
+    color:rgb(255, 5, 25) ;
+    cursor: pointer;
+    font-size: 45px;
+ } 
+ .pagination a:active {
+    color: white;
+  }
