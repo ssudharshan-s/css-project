@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biker Boutique</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Verdana, Tahoma, sans-serif;
+      background: url("12.jpg") no-repeat center center/cover;
+      height: 100vh;
+      color: white;
+    }
+
+    
+    nav {
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(0, 0, 0, 0.6);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav h4 {
+      margin: 0;
+      font-size: 22px;
+      font-weight: bold;
+      color: white;
+    }
+
+    nav h4 span {
+      color: red;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li {
+      display: inline-block;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: red;
+    }
+
+    .container {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      padding-left: 50px;
+      padding-top: 80px; 
+    }
+
+    .container h6 {
+      font-size: 14px;
+      color: yellow;
+      margin: 0;
+    }
+
+    .container h1 {
+      font-size: 50px;
+      margin: 10px 0;
+      color: red;
+      font-weight: bold;
+    }
+
+    .container p {
+      font-size: 20px;
+      margin: 5px 0;
+      color: yellow;
+    }
+
+    button {
+      background-color: red;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 50px;
+      margin-top: 15px;
+      transition: 0.3s;
+    }
+
+    button a {
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: darkred;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <h4>BIKER <span>BOUTIQUE</span></h4>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Home/index.html">Home</a> </li>
+      <li><a href="about/about.html">About</a></li>
+      <li><a href="contact/contact.html">Contact</a></li>
+      <li><a href="gallery/gallery.html">Gallery</a></li>
+      <li><a href="products/products.html">Products</a></li>
+      <li><a href="cart/cart.html">Cart</a></li>
+      <li><a href="login/login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h6>__BIKER BOUTIQUE</h6>
+    <h1>GET UP TO 25%</h1>
+    <p>DIWALI OFFER SALES IS LIVE NOW.</p>
+    <button><a href="#">Buy Now</a></button>
+  </div>
+</body>
+</html>
